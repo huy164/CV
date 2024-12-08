@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,margin=0.5in]{geometry} % Reduced margin to 0.5 inch
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+% Define styles for section titles
+\titleformat{\section}{\bfseries\Large}{}{0em}{}
+\titleformat{\subsection}{\bfseries\large}{}{0em}{}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{Huy Vo}} \\ % Replace with your name
+    \vspace{2mm}
+    Software Engineer \\
+    \vspace{1mm}
+    vqh.official@gmail.com | +84 934 863 157 \\ % Replace with actual contact information
+\end{center}
+
+\section*{Skills}
+
+\textbf{Programming Languages and Frameworks:} Java, Spring Boot, Gatling (performance testing)
+
+\textbf{Cloud and DevOps:} AWS, Jenkins, Harness
+
+\textbf{Tools and Platforms:} Kafka, Postgre, Docker, AppDynamics, Splunk, Redis, HAProxy, Kong Gateway, HashiCorp Vault, Artifactory.
+
+\section*{Work Experience}
+
+\textbf{Software Engineer} \hfill \textbf{National Australia Bank} (Oct 2022 – Present) - HCMC, Vietnam  
+\begin{itemize}[leftmargin=*]
+    \item Design, develop, and maintain payment system using microservices architechture, resolve prod incidents, optimized system performance and refactoring.
+    \item Major projects:  
+\begin{itemize}[leftmargin=*]
+    \item \textbf{ISO 20022:} 
+    \begin{itemize}
+        \item A global standard for exchanging financial information between institutions, enhancing interoperability in financial systems.
+        \item Developed and resolved bottlenecks, enabling the service to handle x1.5 load.
+    \end{itemize}
+
+    \item \textbf{EDGE:} 
+    \begin{itemize}
+        \item A digital platform designed to enhance the customer experience in financial transactions.
+        \item Developed, led the go-live and hypercare.
+    \end{itemize}
+
+    \item \textbf{IFTI (International Funds Transfer Instruction):} 
+    \begin{itemize}
+        \item Aimed at facilitating real-time cross-border payments, enabling secure and efficient transfer of funds across international financial institutions.
+        \item Developed, optimized workflow performance to manage triple transaction loads, ensuring fast and reliable payment processing, main responsibility for project go-live and hypercare.
+    \end{itemize}
+\end{itemize}
+
+    \item {Achievement:} Received 16 recognitions for exceptional performance in 2024, maintaining the highest sprint workload within the team, and obtaining an outstanding rating from the engineering manager in term of delivery, technical expertise, and team support.
+
+    \item Collaborated effectively with global teams from Vietnam, India, Australia.
+\end{itemize}
+
+\textbf{Software Engineer Intern} \hfill \textbf{Spiraledge} (Jul 2022 – Sep 2022) - HCMC, Vietnam  
+\begin{itemize}[leftmargin=*]
+    \item Developed and optimized APIs and database queries, contributing to the backend system for the Farm Management project.
+    \item Enhanced performance for API update, reduce response time by 2 times.
+\end{itemize}
+
+\section*{Education}
+
+\textbf{Bachelor of Information Systems} \hfill University of Information Technology, 2019 – 2024  
+
+\end{document}
